@@ -1,0 +1,20 @@
+site_name: Мои заметки
+# site_url: https://mydomain.org
+theme:
+  logo: "./assets/heart.png"
+  favicon: "./assets/heart.png"
+  language: ru
+  palette:
+    primary: blue grey
+  name: material
+  features:
+    - navigation.indexes
+plugins:
+  - search
+  - blog
+  - awesome-nav
+
+nav:
+  - Главная: index.md
+  - Новости:
+      - blog/index.md
